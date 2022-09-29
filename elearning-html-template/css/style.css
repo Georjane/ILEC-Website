@@ -4,6 +4,11 @@
     --primary:#9b51e0;
     --light: #F0FBFC;
     --dark: #181d38;
+   
+}
+
+.service-item {
+    height: 299px;
 }
 
 .fw-medium {
@@ -148,6 +153,9 @@
         visibility: visible;
         transition: .5s;
         opacity: 1;
+        
+
+
     }
 }
 
@@ -158,6 +166,10 @@
         position: relative;
         min-height: 500px;
     }
+    .img-fluid-1 {
+    /* height: 299px; */
+    width: 516px;
+}
     
     .header-carousel .owl-carousel-item img {
         position: absolute;
@@ -323,6 +335,11 @@
     .testimonial-carousel::after {
         width: 200px;
     }
+
+    .img-fluid-1 {
+        /* height: 299px; */
+        width: 516px;
+    }
 }
 
 @media (min-width: 992px) {
@@ -436,4 +453,43 @@
 
 .services-1 {
     height: 299px;
+}
+
+.img-fluid-1 {
+    height: 299px;
+    width: 355px;
+}
+
+ .team {
+    height: 299px;
+   
+} 
+
+.img-fluid-2 {
+    display: flex;
+    align-items: center;
+}
+
+/* .team {
+    width: 200px;
+  height: 400px;
+  object-fit: cover;
+} */
+
+.img-fluid-team {
+    width: 258px;
+    height: 330px;
+    object-fit: cover;
+}
+
+.img-fluid-team1 {
+    width: 258px;
+    height: 346px;
+    object-fit: cover;
+}
+
+.img-fluid-team2 {
+    width: 258px;
+    height: 313px;
+    object-fit: cover;
 }
